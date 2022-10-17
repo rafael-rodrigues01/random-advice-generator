@@ -52,7 +52,7 @@ Users should be able to:
 I learned a little more about working with an api using fetch and async await functions and how to position elements responsively using few media queries.
 
 ## Contact
-- LinkedIn - [Rafael Rodrigues](https://github.com/rafael-rodrigues01)
+- Linkedin - [Rafael Rodrigues](https://github.com/rafael-rodrigues01)
 
 
 ## Acknowledgments
