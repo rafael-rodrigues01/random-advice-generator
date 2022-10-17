@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: var(--text-color);
+}
+
+.card {
+    background-color: var(--advice-card-color);
+    padding: 50px;
+    height: 330px;
+    max-width: 540px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-size: 19px;
+}
+
+.card p {
+    color: var(--advice-dice-color);
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.card img {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.card .btn {
+    background-color: var(--advice-dice-color);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6%;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.card .btn i {
+    font-size: 30px;
+}
+
+.card .btn:hover{
+    box-shadow: 1px 1px 20px var(--advice-dice-color);
+}
